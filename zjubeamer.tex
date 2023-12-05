@@ -1,0 +1,87 @@
+%# -*- coding:utf-8 -*-
+\documentclass[10pt,aspectratio=169,mathserif]{beamer}		
+
+\usepackage{zju}
+\usepackage{amsmath,amsfonts,amssymb,bm}
+\usepackage{color}
+\usepackage{graphicx,hyperref,url}
+\usepackage{metalogo}
+% \usepackage{fontspec}
+\usepackage{mathptmx}
+\usepackage{times}
+\usepackage{textcomp}
+\usepackage{subcaption}
+
+\newcommand{\code}[1]{\texttt{{\detokenize{#1}}}}
+
+\usefonttheme{serif}
+
+\beamertemplateballitem
+
+\title{Title}
+
+\subtitle{Subtitle}			
+
+\author{Xingkai Wang}
+  
+\institute{Zhejiang University}
+
+\date{\today{}}
+  
+\begin{document}
+
+\begin{frame}
+	\titlepage
+\end{frame}
+
+% \section{Outline}
+\begin{frame}
+	\frametitle{Outline}
+	\tableofcontents
+\end{frame}
+
+\section{Motivation}
+\begin{frame}
+	\frametitle{Motivation}
+	Text.
+	\code{code}
+\end{frame}
+
+\section{Background}
+\begin{frame}
+	\frametitle{Existing Mechanisms}
+	\begin{figure}[htp]
+		\centering
+		\includegraphics[width=13cm]{./images/existing.png}
+		\caption{caption}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Design: vmcache (cont.)}
+	\begin{figure}[htp]
+		\centering
+		\begin{subfigure}[!t]{0.65\linewidth}
+			\includegraphics[width=\linewidth]{./images/states.png}
+			\caption{subcaption}
+		\end{subfigure}
+		\begin{subfigure}[!t]{0.28\linewidth}
+			\includegraphics[width=\linewidth]{./images/transfer.png}
+			\caption{subcaption}
+		\end{subfigure}
+		\caption{caption}
+	\end{figure}
+\end{frame}
+
+% \section{参考文献}
+% \begin{frame}{参考文献}
+% 	\begin{thebibliography}{99}
+% 		\bibitem{zhao1} Yi~Zhao, {\sl An introduction to X}, Sep.~15, 2015
+% 		\bibitem{qian2} Er~Qian, San~Sun,
+% 		Phys.\ Lett.\ A {\bf xx}, 2xx (20xx)
+% 		\bibitem{li4} Si~Li, Phys.\ Rev.\ C {\bf xx}, 5xx (20xx)
+
+% 	\end{thebibliography}
+% \end{frame}
+
+\end{document}
